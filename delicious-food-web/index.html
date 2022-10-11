@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food Restaurant</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/home-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <script src="./assets/js/home.js"></script> -->
+</head>
+<body>
+    <div class="app">
+            <!-- Top header -->
+        <div class="topHeader">
+            <div class="grid wide">
+                <div class="row row-on-mobile-reverse">
+                    <div class="col l-6 c-12">
+                        <div class="topHeader__left row-on-mobile-reverse">
+                            <div class="topHeader__left-social-media">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-twitch"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="topHeader__left-call no-padding">
+                                Call for reservation: +011 29 345 678
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 c-12">
+                        <div class="topHeader__right">
+                            <div class="topHeader__right-open-hours">
+                                Opening Hours : 9:00am - 10:00pm
+                            </div>
+                            <div class="topHeader__right-languages hide-on-mobile">
+                                Eng
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="topHeader__right-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Top header -->
+        <!-- Menu bar -->
+        <nav class="menu-bar">
+            <div class="grid wide">
+                <div class="menu-navbar">
+                    <a href="" class="menu-bar__logo">
+                        <img src="./assets/img/images/logo-brand.png" alt="" class="menu-bar__logo-img">
+                    </a>
+                    <div class="menu-bar__main-toogle"><i class="fa-solid fa-bars"></i></div>
+                    <div class="menu-bar__main">
+                        <ul class="menu-bar__list">
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">Home</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">About</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">Reservation</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">Menu</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">Gallery</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">Blog</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">Shop</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link">Contact Us</a>
+                            </li>
+                            <li class="menu-bar__item">
+                                <a href="" class="menu-bar__item-link menu-bar__item-link-btn">Reservation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END Menu bar -->
+        <!-- Banner -->
+        <div class="banner">
+            <img src="./assets/img/images/banner-background.png" alt="" class="banner__background">
+            <div class="banner__main">
+                <div class="banner-grid grid wide">
+                    <div class="banner-row row no-gutters">
+                        <div class="banner-col col l-6 c-12">
+                            <div class="banner__main-left">
+                                <img src="./assets/img/images/banner-img-delicious.png" alt="" class="banner__main-delicious">
+                                <div class="banner__main-title">The Fresh and Tasty Burgers</div>
+                                <span class="banner__main-des">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit quisquam adipisci numquam placeat
+                                    <br>
+                                    quo eius esse corporis perferendis ab explicabo repellendus non ea.
+                                </span>
+                                <div class="banner__main-left-btn">
+                                    <a href="" class="banner__main-btn">Buy Now</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="banner-col col l-6 c-12 hide-on-mobile">
+                            <img src="./assets/img/images/banner-img.png" alt="" class="banner__main-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Banner -->
+        <!-- About -->
+        <div class="about">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 c-12">
+                        <a href="" class="about__link"><img src="./assets/img/images/pasta.jpg" alt="" class="about__img"></a>
+                        <a href="" class="about__title-link"><h3 class="about__title">Our Restaurant Story</h3></a>
+                        <p class="about__des">Sed ut perspiciatis unde omnis iste natus errorsit voluptatem accusantium doloremque laudantium thes hatles tooest surf totam rem aperiam.</p>
+                        <div class="about__btn">
+                            <a href="" class="about__btn-read">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 c-12">
+                        <a href="" class="about__link"><img src="./assets/img/images/tasty-foof.jpg" alt="" class="about__img"></a>
+                        <a href="" class="about__title-link"><h3 class="about__title">About Our Master Chefs</h3></a>
+                        <p class="about__des">Sed ut perspiciatis unde omnis iste natus errorsit voluptatem accusantium doloremque laudantium thes hatles tooest surf totam rem aperiam.</p>
+                        <div class="about__btn">
+                            <a href="" class="about__btn-read">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 c-12">
+                        <a href="" class="about__link"><img src="./assets/img/images/dinner-pan.jpg" alt="" class="about__img"></a>
+                        <a href="" class="about__title-link"><h3 class="about__title">Check Our Sweet Courses</h3></a>
+                        <p class="about__des">Sed ut perspiciatis unde omnis iste natus errorsit voluptatem accusantium doloremque laudantium thes hatles tooest surf totam rem aperiam.</p>
+                        <div class="about__btn">
+                            <a href="" class="about__btn-read">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END About -->
+        <!-- Home Menu -->
+        <div class="home-menu">
+            <div class="home-menu__background">
+                <section class="home-menu__background-img" style="background-image: url(./assets/img/images/menu-background.jpg);">
+                    <div class="grid wide">
+                        <h3 class="home-menu__background-h3">Our Delicious Menu Items</h3>
+                        <h2 class="home-menu__background-h2">Fresh And Healthy Food Available</h2>
+                    </div>
+                    <!-- Tab items -->
+                    <div class="home-menu__select">
+                        <p class="home-menu__select-title active">Breakfast</p>
+                        <p class="home-menu__select-title">Lunch</p>
+                        <p class="home-menu__select-title">Dinner</p>
+                    </div>
+                </section>
+            </div>
+            <!-- Tab content -->
+            <div class="home-menu-main">
+                <div class="home-menu-main-tab active">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break1.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Croissant</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$15.00</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break2.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Pancake</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$25.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break3.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Sandwich</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$35.90</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break4.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Orange juice</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$5.90</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break5.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Breakfast cereal</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$13.50</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6">
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break6.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Toast</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$22.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break7.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Hot Chocolate</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$5.00</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break8.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Bread</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$65.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break9.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Marmalade</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$73.60</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/break10.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Bacon</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$165.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //////////////////////////////////////////////////// -->
+                <div class="home-menu-main-tab">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch1.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Bruschetta</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$125.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch2.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Spaghetti</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$225.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch3.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Goulash</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$325.00</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch4.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Wiener Schnitzel</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$185.36</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6">
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch5.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Rosti</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$235.90</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch6.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Carbonnade Flamande</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$95.30</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch7.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Cozido</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$125.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/lunch8.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Bosch Soup</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$128.88</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //////////////////////////////////////////////////// -->
+                <div class="home-menu-main-tab">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img1.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Gosh Egg-White Omelet</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$25.40</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img2.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Powered Turkey Meatballs</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$20.00</span>
+                                        <p class="home-menu-des">Shrimp, fresh garlic, olive oil</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img3.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Creamy Feta Salad Dressing</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$55.20</span>
+                                        <p class="home-menu-des">Salt, garlic, pork tenderloin</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img4.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Roasted Red Pepper Hummus</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$40.50</span>
+                                        <p class="home-menu-des">Black beans, pork tenderloin</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img5.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Hearty Grain Breakfast</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$35.20</span>
+                                        <p class="home-menu-des">Salt, garlic, pork tenderloin</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6">
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img6.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Delirium Tremens</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$200.00</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img7.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Cabernet Sauvignon</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$155</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img8.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Delirium Tremens</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$200</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img9.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Cabernet Sauvignon</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$185</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                                <div class="home-menu__list">
+                                    <a href="">
+                                        <img src="./assets/img/images/home-menu-img10.jpg" alt="" class="home-menu__img">
+                                    </a>
+                                    <div class="home-menu__info">
+                                        <a href="">
+                                            <span class="home-menu__name">Roasted Red Pepper Hummus</span>
+                                        </a>
+                                        <span class="home-menu__dot">.........................</span>
+                                        <span class="home-menu__price">$240</span>
+                                        <p class="home-menu-des">Mussel with tomato sauce, wine</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //////////// -->
+            </div>
+        </div>
+        <!-- END Home Menu -->
+        <!-- Relax atmosphere -->
+        <div class="home-relax__background">
+            <section class="home-relax__background-img" style="background-image: url(./assets/img/images/relax-background.jpg);">
+                <div class="grid wide">
+                    <h3 class="home-relax__background-h3">Enjoy Pleasant Pastime With Friends and Partners</h3>
+                    <h2 class="home-relax__background-h2">Relaxing Atmosphere</h2>
+                </div>
+            </section>
+        </div>
+        <!-- END Relax atmosphere -->
+        <!-- Make reversation -->
+        <div class="reservation">
+            <div class="reservation__info">
+                <h1>Make A Reservation</h1>
+                <p class="reversation__info-booking">Booking a table has never been so easy with free & instant online restaurant <br> reservations, booking now!!</p>
+                <p class="reversation__info-time">
+                    Monday to Friday <span style="color: #feb518;">9:00 am - 23:00 pm</span> Saturday to Sunday <span style="color: #feb518;">10:00 am - 22:00 pm</span>
+                    <br>
+                    Note: Arctica Restaurant is closed on holidays.
+                </p>
+                <p class="reversation__info-phone">0844.335.1211</p>
+            </div>
+            <div class="reservation__line"></div> 
+            <div class="reservation__booking">
+                <h2>Book Your Table Online</h2>
+                <form action="#" class="form-1">
+                    <div class="reservation__booking-card-details">
+                        <div class="reservation__booking-card-box">
+                            <input type="text" placeholder="Your Name*">
+                        </div>
+                        <div class="reservation__booking-card-box">
+                            <input type="email" placeholder="Your Email*" class="box-email">
+                        </div>
+                        <div class="reservation__booking-card-box">
+                            <input type="phone" placeholder="Mobile Number*">
+                        </div>
+                    </div>
+                </form>
+                <form action="#" class="form-2">
+                    <div class="reservation__booking-card-details">
+                        <div class="reservation__booking-card-box">
+                            <input type="text" placeholder="Date*">
+                        </div>
+                        <div class="reservation__booking-card-box">
+                            <input type="text" placeholder="Time*" class="box-email">
+                        </div>
+                        <div class="reservation__booking-card-box">
+                            <input type="text" placeholder="No. of Persons*">
+                        </div>
+                    </div>
+                </form>
+                <a href="#" class="reservation__booking-btn">BOOK NOW</a>
+            </div>
+        </div>
+        <!-- END Make reversation -->
+        <!-- Talk background -->
+        <div class="home-talk__background">
+            <section class="home-talk__background-img" style="background-image: url(./assets/img/images/talk-background.jpg);">
+                <div class="grid wide">
+                    <h2 class="home-talk__background-h2">
+                        “ We enjoy sharing the projects and posts we make just as much as we enjoy creating them <br>
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt Sit back & take a moment to browse through some of our recent <br>
+                        completed work.”
+                    </h2>
+                    <h3 class="home-talk__background-h3">-Stevan Smith,</h3>
+                </div>
+            </section>
+        </div>
+        <!-- END Talk background -->
+        <!-- Blog -->
+        <div class="blog">
+            <h1 class="blog-title">Our Blog</h1>
+            <h2>Latest New Updates</h2>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="mar col l-4 c-12">
+                        <img class="blog__img" src="./assets/img/images/pasta.jpg" alt="">
+                        <div class="blog__text">
+                            <span class="blog__text-title"><a href="">Ingredients For Cooking Pasta</a></span>
+                            <p class="blog__text-time">06 Jan 2017 by <span style="color: #feb518;">admin</span> </p>
+                            <p class="blog__text-des">Curabitur quas nets lacusets nulat iaculis loremis etis nisle varius vitae seditum fugiatum ligul aliquam qui sequi nets lacusets nulat</p>
+                        </div>
+                        <div class="blog__text-read-more">
+                            <div class="blog__text-left"><a href="">Read More</a></div>
+                            <div class="blog__text-right">
+                                <span class="blog__text-num">10</span>
+                                <span class="blog__text-like">Likes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mar col l-4 c-12">
+                        <img class="blog__img" src="./assets/img/images/tasty-foof.jpg" alt="">
+                        <div class="blog__text">
+                            <span class="blog__text-title"><a href="">Ingredients For Cooking Pasta</a></span>
+                            <p class="blog__text-time">06 Jan 2017 by <span style="color: #feb518;">admin</span> </p>
+                            <p class="blog__text-des">Curabitur quas nets lacusets nulat iaculis loremis etis nisle varius vitae seditum fugiatum ligul aliquam qui sequi nets lacusets nulat</p>
+                        </div>
+                        <div class="blog__text-read-more">
+                            <div class="blog__text-left"><a href="">Read More</a></div>
+                            <div class="blog__text-right">
+                                <span class="blog__text-num">10</span>
+                                <span class="blog__text-like">Likes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mar col l-4 c-12">
+                        <img class="blog__img" src="./assets/img/images/dinner-pan.jpg" alt="">
+                        <div class="blog__text">
+                            <span class="blog__text-title"><a href="">Ingredients For Cooking Pasta</a></span>
+                            <p class="blog__text-time">06 Jan 2017 by <span style="color: #feb518;">admin</span> </p>
+                            <p class="blog__text-des">Curabitur quas nets lacusets nulat iaculis loremis etis nisle varius vitae seditum fugiatum ligul aliquam qui sequi nets lacusets nulat</p>
+                        </div>
+                        <div class="blog__text-read-more">
+                            <div class="blog__text-left"><a href="">Read More</a></div>
+                            <div class="blog__text-right">
+                                <span class="blog__text-num">10</span>
+                                <span class="blog__text-like">Likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Blog -->
+        <!-- Footer top -->
+        <div class="footer-top">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="l-4 c-12">
+                        <div class="footer-top__brand">
+                            <a href="" class="footer-top-link"><img src="./assets/img/images/logo-brand-footer.png" alt=""></a>
+                            <div class="footer-top-text">Marsh mallow muffin soufflé jelly-o tart cake Marshmallow macaroon jelly jubes dont tiramisu croissant cake.</div>
+                            <div class="footer-top-info">
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <div class="footer-top-info-text">
+                                    Address: 44 New Design Street,<br> Melbourne 005
+                                </div>
+                            </div>
+                            <div class="footer-top-info">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="footer-top-info-text">
+                                    Phone: (01)800 433 633
+                                </div>
+                            </div>
+                            <div class="footer-top-info">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div class="footer-top-info-text">
+                                    Email: info@Example.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-2 c-12">
+                        <div class="footer-top__usefull">
+                            <div class="footer-top__usefull-title">USEFULL LINKS</div>
+                            <ul class="footer-top__usefull-list">
+                                <li class="footer-top__usefull-item"><a href="">About Company</a></li>
+                                <li class="footer-top__usefull-item"><a href="">Reservation</a></li>
+                                <li class="footer-top__usefull-item"><a href="">Help Center</a></li>
+                                <li class="footer-top__usefull-item"><a href="">Our Blog</a></li>
+                                <li class="footer-top__usefull-item"><a href="">Careers</a></li>
+                                <li class="footer-top__usefull-item"><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="l-2 c-12">
+                        <div class="footer-top__blog">
+                            <div class="footer-top__blog-title">LASTEST BLOG POST</div>
+                            <div class="footer-top__blog-mar">
+                                <div class="footer-top__blog-item">
+                                    <a href=""><img src="./assets/img/images/footer-img-1.jpg" alt="" class="footer-top__blog-item-img"></a>
+                                    <div class="footer-top__blog-item-info">
+                                        <p class="footer-top__blog-item-named"><a href="">Peaceful Hotel</a></p>
+                                        <p class="footer-top__blog-item-time">25th June 2022</p>
+                                    </div>
+                                </div>
+                                <div class="footer-top__blog-item">
+                                    <a href=""><img src="./assets/img/images/footer-img-1.jpg" alt="" class="footer-top__blog-item-img"></a>
+                                    <div class="footer-top__blog-item-info">
+                                        <p class="footer-top__blog-item-named"><a href="">Chicken Caesar</a></p>
+                                        <p class="footer-top__blog-item-time">8th June 2022</p>
+                                    </div>
+                                </div>
+                                <div class="footer-top__blog-item">
+                                    <a href=""><img src="./assets/img/images/footer-img-2.jpg" alt="" class="footer-top__blog-item-img"></a>
+                                    <div class="footer-top__blog-item-info">
+                                        <p class="footer-top__blog-item-named"><a href="">Portobello Pizza</a></p>
+                                        <p class="footer-top__blog-item-time">29th June 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pad l-4 c-12">
+                        <div class="footer-top__open">
+                            <div class="footer-top__open-title">OPENING HOURS</div>
+                            <ul class="footer-top__open-list">
+                                <li class="footer-top__open-item">Mon — Fri  ........................ 9:00 am - 23:00 pm</li>
+                                <li class="footer-top__open-item">Saturday ........................  10:00 am - 22:00 pm</li>
+                                <li class="footer-top__open-item">Sunday   .........................   10:00 am - 21:00 pm</li>
+                                <li class="footer-top__open-item">Note: Arctica Restaurant is closed on holidays.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Footer top -->
+        <!-- Footer bottom -->
+        <div class="footer-bottom">
+            <p>Copyrights © 2015  All Rights Reserved.</p>
+        </div>
+        <!-- END Footer bottom -->
+    </div>
+</body>
+<script src="./assets/js/home.js"></script>
+</html>
